@@ -8,6 +8,7 @@ function AboutUs() {
       <div className="py-11">
         <div className="text-center flex flex-col  px-1 sm:mx-auto sm:max-w-xl">
           <p className="text-black-300 mb-0 ">About</p>
+          <h1>Hello</h1>
           <h1 className=" text-3xl mt-2 text-slate-900 text-black-100 sm:text-4xl">
             ROOM<b>MATE</b> MATTRESS
           </h1>
