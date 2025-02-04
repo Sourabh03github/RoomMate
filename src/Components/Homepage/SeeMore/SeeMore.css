@@ -1,0 +1,78 @@
+.footer-img-card {
+  width: 90%;
+  height: auto;
+  border-radius: 30px;
+  position: relative;
+  left: 5%;
+}
+.footer-img {
+  height: 28vw;
+  width: 100%;
+  /* background: red; */
+  border-radius: 30px;
+
+  background: url(../../../asset/bed.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.space {
+  width: 100%;
+  height: 10vh;
+}
+
+.gradient {
+  height: 28vw;
+  width: 100%;
+  border-radius: 30px;
+  background: linear-gradient(
+    89.53deg,
+    rgba(45, 45, 31, 0.97) -0.84%,
+    rgba(45, 45, 31, 0) 90.32%
+  );
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+}
+
+.gradient h2 {
+  grid-column: 2/3;
+  color: #e1e1bb;
+  margin-top: 100px;
+  line-height: 55px;
+}
+.btn-exp {
+  width: 20vw;
+  height: 4vw;
+  margin-top: 2vw;
+  transition: all 0.5s ease;
+  color: #e1e1bb;
+  border: 3px solid #e1e1bb;
+  /* font-family: "Montserrat", sans-serif; */
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 60px;
+}
+.btn-exp:hover {
+  color: #001f3f;
+  background-color: #e1e1bb;
+}
+
+@media screen and (max-width: 900px) {
+  .gradient h2 .btn-exp {
+    display: grid;
+    place-content: center;
+  }
+  .gradient h2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .gradient h2 {
+    margin-top: 0px;
+  }
+}

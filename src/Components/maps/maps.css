@@ -1,0 +1,10 @@
+.leaflet-container {
+  position: relative;
+  width: 80%;
+  height: 80vh;
+  z-index: 0;
+  margin: 2rem auto;
+}
+.maps_popup-title {
+  font-size: 1.5rem;
+}

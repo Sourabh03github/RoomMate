@@ -1,0 +1,27 @@
+body {
+  /* background-color: #f9f9f9; */
+  font-family: "Eudoxus Sans";
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 2px solid red;
+} */
+
+.mattr-card-tittle {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mattr-card {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
